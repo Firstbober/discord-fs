@@ -1,0 +1,22 @@
+{
+  "name": "discordfs",
+  "version": "1.0.0",
+  "description": "FUSE File System implemented in TS and Discord Attachments",
+  "scripts": {
+    "start": "npx ts-node discordfs.ts"
+  },
+  "author": "firstbober",
+  "license": "LGPL-3.0-or-later",
+  "dependencies": {
+    "@discordjs/rest": "^0.5.0",
+    "@tsconfig/node18": "^1.0.1",
+    "@types/node": "^18.0.1",
+    "commander": "^9.3.0",
+    "consola": "^2.15.3",
+    "discord-api-types": "^0.36.0",
+    "discord.js": "^13.8.1",
+    "fuse-native": "^2.2.6",
+    "node-fetch": "^3.2.6",
+    "ts-node": "^10.8.2"
+  }
+}

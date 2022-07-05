@@ -1,0 +1,8 @@
+{
+	"extends": "@tsconfig/node18/tsconfig.json",
+	"compilerOptions": {
+		"importHelpers": true,
+		"allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true
+	}
+}
